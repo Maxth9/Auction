@@ -1,6 +1,6 @@
 # Auction
 
-[![sampctl](https://img.shields.io/badge/sampctl-Auction-2f2f2f.svg?style=for-the-badge)](https://github.com/Maxth9/Auction)
+[![sampctl](https://img.shields.io/badge/sampctl-Auction-2f2f2f.svg?style=for-the-badge)](https://github.com/Maxth9/auction)
 
 <!--
 Short description of your library, why it's useful, some examples, pictures or
@@ -31,7 +31,7 @@ Happy Pawning!
 Simply install to your project:
 
 ```bash
-sampctl package install Maxth9/Auction
+sampctl package install Maxth9/auction
 ```
 
 Include in your code and begin using the library:
