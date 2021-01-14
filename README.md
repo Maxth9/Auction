@@ -37,7 +37,7 @@ sampctl package install Maxth9/auction
 Include in your code and begin using the library:
 
 ```pawn
-#include <Auction>
+#include <auction>
 ```
 
 ## Usage
