@@ -86,9 +86,9 @@ main(){
 // publics 
 public OnGameModeInit(){
     
-    connection = MYSQL:mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DATABASE);
+    connection = mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DATABASE);
 
-    if (MYSQL:mysql_errno(connection) == 0) {
+    if (mysql_errno(connection) == 0) {
         printf("(MySQL) Successfully connected to \"%s\".", MYSQL_HOSTNAME);
         return 0;
     }
